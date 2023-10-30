@@ -1,3 +1,5 @@
+// THIS IS NOT FULLY IMPLEMENTED, USE THE ONE IN COPYPASTA FOLDER
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -27,11 +29,18 @@ void assign_key(char *key) {
   for (int i = 0; i < key_len; i++) {
     abc[key[i] - 97] = '-';
   }
-  for (int i = 0; i < key_len; i++) {
-    PF_MATRIX[i / 5][i % 5] = key[i];
+
+  int matrix_coord;
+  for (matrix_coord = 0; matrix_coord < key_len; matrix_coord++) {
+    PF_MATRIX[matrix_coord / 5][matrix_coord % 5] = key[matrix_coord];
   }
 
-  //
+  for (int i = 0; i < 26; i++) {
+    if (abc[i] != '-') {
+      PF_MATRIX[matrix_coord / 5][matrix_coord % 5] = abc[i];
+      matrix_coord++;
+    }
+  }
 }
 
 int main(void) {

@@ -16,11 +16,11 @@ void decrypt_text(char *plain_text, int key) {
 }
 
 int main(void) {
-  char plain_text[] = "jeelpatel";
+  char plain_text[] = "alphabet";
   printf("plaintext : %s\n", plain_text);
-  encrypt_text(plain_text, 1);
+  encrypt_text(plain_text, 3);
   printf("encrypted : %s\n", plain_text);
-  decrypt_text(plain_text, 1);
+  decrypt_text(plain_text, 3);
   printf("decrypted : %s\n", plain_text);
   return 0;
 }
