@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView studentView = findViewById(R.id.student_recycler);
         Student[] students = {
-                new Student("Jeel", "69420, This Street, That State", "dummy"),
-                new Student("Ayush", "69421, This Street, That State", "dummy"),
-                new Student("Divyanshu", "69422, This Street, That State", "dummy"),
+                new Student("Daniel", "69420, This Street, That State", "dummy"),
+                new Student("Robby", "69421, This Street, That State", "dummy"),
+                new Student("Emma", "69422, This Street, That State", "dummy"),
         };
 
         StudentRecyclerAdapter adapter = new StudentRecyclerAdapter(students);

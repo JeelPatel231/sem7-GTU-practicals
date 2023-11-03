@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent data = new Intent();
-                data.setData(Uri.parse("Name: Jeel"));
+                data.setData(Uri.parse("Data: Hello World"));
                 setResult(RESULT_OK, data);
                 finish();
             }

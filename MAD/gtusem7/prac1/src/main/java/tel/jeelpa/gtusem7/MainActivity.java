@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(username.getText().toString().equals("jeel") && password.getText().toString().equals("pass")) {
+                if(username.getText().toString().equals("admin") && password.getText().toString().equals("pass")) {
                     Toast.makeText(MainActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Login Failure", Toast.LENGTH_SHORT).show();
