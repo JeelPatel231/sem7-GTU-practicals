@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:text="Intent"
+        />
+
+    <Button
+        android:id="@+id/implicit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent"
+        />
+    <Button
+        android:id="@+id/explicit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explicit Intent"
+        />
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity"
+        />
+
+</LinearLayout>

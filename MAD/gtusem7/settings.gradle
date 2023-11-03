@@ -15,3 +15,13 @@ dependencyResolutionManagement {
 
 rootProject.name = "gtusem7"
 include ':prac1'
+include ':prac2'
+include ':prac3'
+include ':prac4'
+include ':prac5'
+include ':prac6'
+include ':prac7'
+include ':prac8'
+include ':prac9'
+include ':prac10'
+
