@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         imageClickBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Clicc", Toast.LENGTH_SHORT).show();
                 if (!checkcamPermission()){
                     askPermission();
                 } else {
